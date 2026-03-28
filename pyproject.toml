@@ -4,10 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "crewai-substrate-memory"
-version = "0.1.0"
+version = "0.1.2"
 description = "SUBSTRATE persistent memory provider for CrewAI -- causal memory, emotion, and identity for your AI crews."
 readme = "README.md"
-license = "MIT"
+license = "LicenseRef-Proprietary"
 requires-python = ">=3.10"
 authors = [
     { name = "Garmo Labs", email = "hello@garmolabs.com" },
@@ -25,7 +25,6 @@ keywords = [
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -43,7 +42,7 @@ dependencies = [
 Homepage = "https://garmolabs.com/substrate.html"
 Documentation = "https://github.com/PKaldone/substrate-mcp"
 Repository = "https://github.com/PKaldone/substrate-mcp"
-Issues = "mailto:support@garmolabs.com"
+Issues = "https://garmolabs.com/substrate.html"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/crewai_substrate"]
